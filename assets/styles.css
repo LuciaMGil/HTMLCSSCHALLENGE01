@@ -15,15 +15,18 @@ header {
     color: #ffffff;
 }
 
+/* Removed unnecessary ".header" */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Removed unnecessary ".header h1" and changed .seo to an ID since it is only used once */
 #seo {
     color: #d9dcd6;
 }
 
+/* Changed div to nav */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +35,7 @@ header nav {
     font-size: 20px;
 }
 
+/* Combined ".header div ul" and ".header div ul li" and named is li to be concise */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -47,6 +51,7 @@ p {
     font-size: 16px;
 }
 
+/* Changed it to and ID since it is only used once */
 #hero {
     height: 800px;
     width: 100%;
@@ -83,6 +88,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Deleted 6 individual classes that were targeting the same places and turned it into one concise class */
 .benefitheaders {
     margin-bottom: 32px;
     color: #ffffff;
@@ -90,6 +96,7 @@ p {
     text-align: center;
 }
 
+/* Deleted 3 repeated classes and turned it into one*/
 .contentheaders {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,20 +106,21 @@ p {
     color: #ffffff;
 }
 
+/* Deleted 3 repeated classes and turned it into one */
 img {
     max-height: 200px;
 }
 
+/* Deleted unnecessary ".footer" */
 h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
+/* Changed it from a class to an element and deleted font size that is already in h2*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-size: 20px
 }
